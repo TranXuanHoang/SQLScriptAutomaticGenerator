@@ -31,8 +31,8 @@ public class SQLGenerator {
 	 * main() method here is for testing purpose.
 	 */
 	/*public static void main(String[] args) {
-		String excelFilePath = "C:\\Users\\qcs5907\\Desktop\\SQLs\\WebAPIカタログカスタマイズ.xlsx";
-		String outputFolder = "C:\\Users\\qcs5907\\Desktop\\SQLs";
+		String excelFilePath = "C:\\Users\\Desktop\\SQLs\\WebAPIカタログカスタマイズ.xlsx";
+		String outputFolder = "C:\\Users\\Desktop\\SQLs";
 
 		try {
 			readDataFromExcelFile(excelFilePath);
@@ -345,9 +345,9 @@ public class SQLGenerator {
 					"\\ContentBlockText.html";
 			// NOTE This method requires that the ContentBlockText.html file
 			// must be placed in the same folder where the application is run
-			
+
 			FileInputStream fis = new FileInputStream(contentBlockTextFilePath
-					/*"C:\\Users\\qcs5907\\workspace\\SQLScriptAutomaticGenerator\\bin\\sql\\ContentBlockText.html"*/);
+					/*"C:\\Users\\workspace\\SQLScriptAutomaticGenerator\\bin\\sql\\ContentBlockText.html"*/);
 			InputStreamReader isr = new InputStreamReader(fis, "UTF8");
 			Reader in = new BufferedReader(isr);
 			int ch;

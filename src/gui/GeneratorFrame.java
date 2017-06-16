@@ -83,9 +83,9 @@ public class GeneratorFrame extends JFrame {
 				}
 			}
 		});
-		
+
 		System.out.println("Working Directory = " +
-	              System.getProperty("user.dir"));
+				System.getProperty("user.dir"));
 	} // end method main
 
 	/**
